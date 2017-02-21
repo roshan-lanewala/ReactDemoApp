@@ -1,0 +1,11 @@
+{
+    "extends": ["standard-warn", "react-app", "plugin:import/errors"],
+    "settings": {
+      "import/resolver": {"webpack": {"config": "config/webpack.config.dev"}}
+    },
+    "rules" : {
+        "space-before-function-paren": "off",
+        "spaced-comment": "off",
+        "import/no-unresolved": [2, { "caseSensitive": false }]
+    }
+}

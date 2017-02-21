@@ -1,0 +1,6 @@
+{
+  "main.css": "static/css/reactdemoapp.css",
+  "main.css.map": "static/css/reactdemoapp.css.map",
+  "main.js": "static/js/reactdemoapp.js",
+  "main.js.map": "static/js/reactdemoapp.js.map"
+}

@@ -1,0 +1,78 @@
+
+body {
+  padding: 50px;
+  background-color: #F5F5F5;
+  font-family: sans-serif;
+}
+.todoListMain {
+  width: 500px;
+}
+.todoListMain .header {
+  margin: 15px;
+}
+.todoListMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #FFF;
+}
+.todoListMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+}
+.todoListMain .header button:hover {
+  cursor: pointer;
+}
+.todoListMain .tasksList {
+  list-style: none;
+  padding-left: 0;
+}
+ 
+.todoListMain .tasksList li {
+  color: #333;
+  background-color: rgba(255,255,255,.5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.todoListMain .tasksList li .item {
+  font-size: 24px;
+}
+.todoListMain .tasksList li .toggle {
+  text-align: center;
+  width: 40px;
+  height: 20px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  border: none;
+}
+.todoListMain .tasksList li .strike {
+  text-decoration: line-through;
+}
+.todoListMain li .destroy {
+  float: right;
+	top: 0;
+	right: 10px;
+	bottom: 0;
+	width: 40px;
+	height: 40px;
+	margin: auto 0;
+	font-size: 30px;
+	color: #cc9a9a;
+	margin-bottom: 11px;
+	transition: color 0.2s ease-out;
+	padding: 0;
+	border: 0;
+	background: none;
+	vertical-align: middle;
+	font-family: inherit;
+	font-weight: inherit;
+}
+.todoListMain .taskSummary {
+  background-color: white;
+}
+.todoListMain .taskSummary .incomplete-items-count {
+  padding: 35px;
+  font-size: 30px;
+}
